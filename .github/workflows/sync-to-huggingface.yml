@@ -18,5 +18,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        # REPLACE 'your-username' and 'your-space-name' with your actual HF info
-        run: git push --force https://your-username:$HF_TOKEN@huggingface.co/spaces/your-username/your-space-name main
+        run: git push --force https://iharshilB:$HF_TOKEN@huggingface.co/spaces/iharshilB/microanalysis-bot HEAD:main
